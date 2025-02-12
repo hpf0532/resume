@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+				<div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >Tyrant</h1>
+                <h4 id="persona-tag" >Web / DevOps</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">贺鹏飞</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">烟台理工学院</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2014</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">13370800273</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">huanledou323@gmail.com</span></li>
+                    <li>
+                        <label class="left-label">个人主页</label><span class="label-value">blog.tyrant0532.com</span></li>
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/hpf0532</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Javascript</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">html/css</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Linux</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Golang</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">前端</label><span class="label-value">React、Vue、Javascript、html/css</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">后端</label><span class="label-value">Flask、Gin、MySQL、Redis</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">DevOps</label><span class="label-value">jenkins、ansible、Docker、Kubernetes</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>辽宁途隆科技有限公司(2014.06~2017.09)－网络运维工程师</h3>
+                        <p>
+                            负责公司网站，数据库和应用系统的运维管理工作，编写日常运维脚本，服务器交换机配置维护。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>山东鲁信汇金商务信息咨询有限公司(2017.11~2020.01) - Linux运维工程师 &前端开发工程师</h3>
+                        <p>
+                            负责公司阿里云服务器架设，日常运维，服务器故障排查。开发内部DevOps系统，参与企业官网开发，实现业务端前端模块需求。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>青岛掌讯通区块链科技有限公司(2020.02~2021.08) - 前端开发工程师</h3>
+                        <p>
+                            负责前端项目交付、公司组件库维护、新技术预研、前端分享等工作
+                            参与前端业务脚手架维护，负责业务项目 Composition API，TypeScript等接入工作，后续应用到了公司多个项目中
+                        </p>
+                    </li>
+                    <li>
+                        <h3>山东翼盾控股集团有限公司(2021.09~2024.06) - 前端开发工程师</h3>
+                        <p>
+                            负责前端网站的基础技术框架搭建、项目开发、环境部署，以及项目发布。 项目包括公司PC、移动端网站、管理后台网站， 带领前端团队高效完成业务模块开发，制定前端团队开发的流程，提高整个团队的交付效率和质量。
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">项目介绍</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>内部devops管理系统 - Flask + ansible-api + Vue + Element</h3>
+                        <p>
+                            项目介绍: 该项目为内部项目版本发布系统，项目前端采用Vue+Element，后端使用flask+ansible-api，集成异步任务组件celery，上线至今已稳定发布各项目版本累计超2000次。
+                        </p>
+                        <p>
+                            负责该项目前端页面设计与开发，使用阿里云sts token方式获取临时登录凭证，并上传文件至阿里云OSS中。
+                        </p>
+                        <p>
+                            负责该项目后台接口输出，集成ansible-api实现playbook的自动化部署，集成celery实现发布版本任务异步执行，提升用户体验。
+                        </p>
+                        <p>
+                            项目地址: <a href="https://github.com/hpf0532/corona">https://github.com/hpf0532/corona</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>都市乡村CRM企业管理系统 - Vue + Element-UI</h3>
+                        <p>项目介绍: 该项目为都市乡村公司内部客户关系及财务订单管理的系统，项目前端采用Vue + Element-UI，后端使用spring-cloud-alibaba，前后端分离架构研发。</p>
+               
+                        <p>
+                            负责项目后台管理模块，订单模块，客户模块的前端页面开发，包括页面布局、交互设计及功能实现。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>法证链1.0管理系统 - Vue + Element-UI</h3>
+                        <p>
+                            项目介绍: 该项目为公司内部不良资产处置业务搭建的一套管理系统，其内容涵盖资产管理、申请人管理、签章管理、财务管理等模块。项目前端采用Vue + Element-UI开发，后端采用Springboot + Motan架构实现。
+                        </p>
+                        <p>
+                            推动在项目中进行模块化开发，降低业务代码复杂度，提高开发效率。解决实际业务场景问题和日常Bug。
+                        </p>
+                        <p>
+                            项目后续研发过程中从本地开发打包上线带来的效能问题，基于gitlab webhook使用golang开发了一个小工具实现CI/CD功能。
+                            
+                        </p>
+                        <p>
+                            项目地址: <a href="https://github.com/hpf0532/go-webhook">https://github.com/hpf0532/go-webhook</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>法证链2.0系统 - React + Antd</h3>
+                        <p>
+                            项目介绍: 该系统为法证链1.0系统的重构版本，由于业务发展需要用到多租户场景，外加v1.0愈加庞大臃肿，综合考虑各方面影响，决定使用React来重构之前的法证链项目。
+                        </p>
+                        <p>
+                            负责本次重构技术选型，脚手架搭建，后续业务模块开发联调，使用自定义hooks实现耦合逻辑拆分，优化代码结构，提升开发效率。
+                        </p>
+                        <p>
+                            负责 TypeScript 推行，保障类型检查和分享接入总结。
+                        </p>
+                        <p>
+                            实现代码风格统一管理与检查，代码扫描由 ESLint、Stylelint、Prettier 等进行，提交检查由 husky 与 commitlint 进行。
+                        </p>
+                        <p>
+                            封装OSS直传组件，前端文件上传不再需要后台接口接收，而是直接上传至指定OSS Bucket中，优化用户体验的同时也减轻后台服务器的压力。
+                        </p>
+                        <p>
+                            针对较为庞大的异步任务导出问题，经过研判后，使用SSE技术封装了一个消息通知服务，实现了异步任务的消息通知。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>中铁智慧工地项目 - Vue3 + ElementPlus + uniapp</h3>
+                        <p>
+                            项目介绍：该项目为中铁建工集团公司内部用于管理工地事务的系统，分为PC端和移动端，PC端架构采用Vue3 + ElementPlus，移动端架构采用uniapp + uview-plus。
+                        </p>
+                        <p>
+                            负责项目内智能螺母、深基坑监测、智能地磅与车辆记录等模块的前端页面开发与联调，接入Vue Composition API，实现业务组件逻辑复用。
+                        </p>
+                        <p>
+                            负责部分微信小程序与H5页面的开发与联调，与设计人员配合，完善设计规范和实现公共组件库。
+                        </p>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <p>
+                    性格温和真诚，容易相处，具有良好的团队合作精神，与后端合作融洽。
+具有良好的审美能力，良好的代码编程习惯。
+喜欢前端开发，热爱挑战，具备一定的软件分析、设计、开发和应用能力，拥有较强的学习能力能够很快的适应工作环境。
+相信技术改变世界，改变生活，平时也会写一些爬虫、脚本来辅助完成某些繁杂的任务。
+                </p>
+            </div>
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>烟台理工学院 - 公共事业管理专业（本科）2010-2014</h3>
+  
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
