@@ -244,7 +244,7 @@ progress::-moz-progress-value {
 .container {
   position: relative;
   margin: 0 auto;
-  height: 2100px;
+  height: 2300px;
   width: 1050px;
   background-color: white;
 }
@@ -316,4 +316,8 @@ ul li {
   margin-right: 2px;
   visibility: hidden;
   cursor: pointer;
+}
+
+ol {
+  padding-inline-start: 20px !important;
 }
